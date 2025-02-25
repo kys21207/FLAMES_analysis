@@ -1,0 +1,21 @@
+python /opt/notebooks/FLAMES/FLAMES.py annotate \
+-a /opt/notebooks/Annotation_data/ \
+-p /mnt/project/analysis_KJ/pops_analysis/results/ms_all_comers_v3.pops.preds \
+-m /mnt/project/analysis_KJ/pops_analysis/magma_scores/ms_all_comers_v3.magma.genes.out \
+-mt /mnt/project/analysis_KJ/magma_analysis/pathway_gene_set_results/ms_all_comers_v3.magma.Human_Reactome.gsa.out \
+-g /mnt/project/publically_available_supporting_files/pops_data/gene_annotation_hg38_TSS.txt \
+-id /opt/notebooks/cred_data/susie_results/indexfile.txt \
+-l /opt/notebooks/cred_data/susie_results/snp_info.txt \
+-pc SNP \
+-sc PIP
+
+python /opt/notebooks/FLAMES/FLAMES.py annotate \
+-a /opt/notebooks/Annotation_data/ \
+-p /opt/notebooks/FLAMES/example_data/PoPS.preds \
+-m /opt/notebooks/FLAMES/example_data/magma.genes.out \
+-mt /opt/notebooks/FLAMES/example_data/magma_exp_gtex_v8_ts_avg_log2TPM.txt.gsa.out \
+-id /opt/notebooks/FLAMES/example_data/indexfile.txt  \
+-pc prob1 \
+-sc cred1 \
+-g /opt/notebooks/FLAMES/example_data/genes.txt \
+-c95 False
