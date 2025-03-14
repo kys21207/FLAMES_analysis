@@ -1,4 +1,5 @@
 # FLAMES_analysis
+https://github.com/Marijn-Schipper/FLAMES?tab=readme-ov-file
 FLAMES combines SNP-to gene evidence (V2G) and bological pathway convergence using machine learning (XGBoost clasifier) to rank effctor genes. <br>
 1. SNP-to-Gene Evidence: 22 different SNP-to-gene linking methods such as Chromatin interaction, eQTLs, proximity-based methods, and Fine-mapping results <br>
 2. Biological pathway convergence: uses PoPS (gene co-expression, protein-protein interactions and pathway and functional annotations <br>
