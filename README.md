@@ -13,3 +13,5 @@ source venv/bin/activate <br>
 pip install -r /opt/notebooks/FLAMES/requirements.txt <br>
 ## Notes
 - The PoPS features are generated from pathway/ppi/expression data, and are therefore all gene-based. Generating pops scores from a hg38/37 GWAS is therefore the same. Please make sure that you are running MAGMA with gene annotation of the genome build the GWAS is in.
+## plot
+https://ivanek.github.io/Gviz/articles/Gviz.html
